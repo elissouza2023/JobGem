@@ -74,3 +74,9 @@ Cada assistente atua de forma complementar, criando um fluxo inteligente e integ
 ## 👩‍💻 Autoria
 
 Projeto acadêmico desenvolvido para otimizar processos de candidatura com apoio de Inteligência Artificial .
+
+---
+
+## 📌 Deploy
+
+
