@@ -37,7 +37,7 @@ Cada assistente atua de forma complementar, criando um fluxo inteligente e integ
 ## 🖼️ Exemplos Visuais dos Assistentes
 
 ### 🔧 Assistente - Adaptador de Currículo
-![Adaptador de Currículo](./assistente.png)
+![Adaptador de Currículo](./assistentes.png)
 
 ---
 
