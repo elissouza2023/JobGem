@@ -79,4 +79,5 @@ Projeto acadêmico desenvolvido para otimizar processos de candidatura com apoio
 
 ## 📌 Deploy
 
+https://job-gem.vercel.app/
 
