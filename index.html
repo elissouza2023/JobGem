@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Hunter Gems - Ecossistema de Assistência de Carreira</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      color: #1e293b;
+      background: #f8fafc;
+    }
+    h1 {
+      color: #0f172a;
+      font-size: 2.1rem;
+      margin-bottom: 0.4em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    h2 {
+      color: #334155;
+      font-size: 1.6rem;
+      margin: 2.2rem 0 1rem;
+      border-bottom: 2px solid #e2e8f0;
+      padding-bottom: 0.4rem;
+    }
+    h3 {
+      color: #475569;
+      margin-top: 1.8rem;
+    }
+    .emoji {
+      font-size: 1.4em;
+      margin-right: 0.3em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 14px 16px;
+      text-align: left;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    th {
+      background: #f1f5f9;
+      font-weight: 600;
+      color: #0f172a;
+    }
+    ul {
+      padding-left: 1.6rem;
+      margin: 1rem 0;
+    }
+    li {
+      margin-bottom: 0.6rem;
+    }
+    .flow-steps {
+      counter-reset: step;
+      list-style: none;
+      padding-left: 0;
+    }
+    .flow-steps li {
+      position: relative;
+      padding-left: 2.8rem;
+      margin-bottom: 1.4rem;
+    }
+    .flow-steps li::before {
+      content: counter(step);
+      counter-increment: step;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 32px;
+      height: 32px;
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.2rem 0;
+    }
+    .tech-item {
+      background: #eff6ff;
+      color: #1d4ed8;
+      padding: 0.5rem 1rem;
+      border-radius: 999px;
+      font-size: 0.95rem;
+      border: 1px solid #bfdbfe;
+    }
+    .objective {
+      background: #f0fdf4;
+      border-left: 5px solid #22c55e;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1><span class="emoji">🚀</span> Job Hunter Gems: Ecossistema de Assistência de Carreira</h1>
+
+  <p>
+    Este projeto consiste em uma suíte de Gems (GPs customizados) desenvolvidos para otimizar o ciclo de busca e candidatura a vagas de emprego. Utilizando inteligência artificial generativa, os assistentes atuam desde a curadoria de oportunidades até a personalização técnica de documentos.
+  </p>
+
+  <h2><span class="emoji">🛠️</span> Os Assistentes (Gems)</h2>
+  <p>O ecossistema é dividido em três pilares fundamentais:</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Assistente</th>
+        <th>Função Principal</th>
+        <th>Diferencial</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Adaptador de Currículo</strong></td>
+        <td>Ajuste dinâmico de CVs para descrições de vagas específicas.</td>
+        <td>Alinhamento de palavras-chave e adequação de experiências ao perfil da empresa.</td>
+      </tr>
+      <tr>
+        <td><strong>Destaque de Pontos Positivos</strong></td>
+        <td>Geração de pitchs e textos de apresentação.</td>
+        <td>Identifica as "soft" e "hard skills" mais relevantes para causar impacto imediato.</td>
+      </tr>
+      <tr>
+        <td><strong>Consultor de Vagas</strong></td>
+        <td>Curadoria inteligente de oportunidades.</td>
+        <td>Filtra vagas que possuem real compatibilidade com o stack técnico e momento de carreira.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2><span class="emoji">💡</span> Fluxo de Trabalho</h2>
+  <ol class="flow-steps">
+    <li><strong>Descoberta:</strong> O Consultor de Vagas analisa o mercado e identifica posições compatíveis.</li>
+    <li><strong>Personalização:</strong> O Adaptador de Currículo reescreve tópicos da experiência profissional para dar match com os requisitos da vaga.</li>
+    <li><strong>Engajamento:</strong> O Destaque de Pontos Positivos cria a carta de apresentação ou o resumo do LinkedIn para atrair a atenção do recrutador.</li>
+  </ol>
+
+  <h2><span class="emoji">🧠</span> Tecnologia Utilizada</h2>
+  <ul>
+    <li><strong>Google Gemini Engine:</strong> Core de processamento de linguagem natural.</li>
+    <li><strong>Prompt Engineering:</strong> Instruções sistêmicas avançadas para garantir tom de voz profissional e analítico.</li>
+    <li><strong>Custom Knowledge Base:</strong> Estruturação de dados para que a IA entenda o histórico profissional sem a necessidade de novos uploads a cada interação.</li>
+  </ul>
+
+  <div class="objective">
+    <h3>📌 Objetivo do Projeto</h3>
+    <p>
+      Demonstrar como a IA pode ser utilizada como uma ferramenta de produtividade pessoal, reduzindo o tempo de tarefas operacionais em processos seletivos e aumentando a qualidade das candidaturas enviadas.
+    </p>
+  </div>
+
+</body>
+</html>
